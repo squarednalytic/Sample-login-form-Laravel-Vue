@@ -58,17 +58,6 @@ Copy the .env.example file to .env and configure your database connection:
 
 cp .env.example .env
 
-Edit the .env file and set your PostgreSQL database details:
-
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
-
-Generate the application key:
-
 php artisan key:generate
 
 Run database migrations and seeding:

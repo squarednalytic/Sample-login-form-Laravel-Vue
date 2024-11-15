@@ -1,0 +1,1 @@
+psql -U username -d database_name -f path_to_sql_file.sql
